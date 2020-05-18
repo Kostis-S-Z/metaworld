@@ -61,8 +61,10 @@ class MujocoEnv(gym.Env, abc.ABC):
         This method is called when the viewer is initialized and after every reset
         Optionally implement this method, if you need to tinker with camera position
         and so forth.
-        """
-        pass
+        """  
+        self.viewer.cam.azimuth = -20
+        self.viewer.cam.elevation = -20
+
 
     def reset(self):
         self.sim.reset()
