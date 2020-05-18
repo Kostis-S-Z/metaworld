@@ -1,3 +1,5 @@
+_Same repo with just an additional (better for visualization) angle when rendering_
+
 # Meta-World
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rlworkgroup/metaworld/blob/master/LICENSE)
 [![Build Status](https://travis-ci.com/rlworkgroup/metaworld.svg?branch=master)](https://travis-ci.com/rlworkgroup/metaworld)
@@ -24,13 +26,13 @@ __Table of Contents__
 Meta-World is based on MuJoCo, which has a proprietary dependency we can't set up for you. Please follow the [instructions](https://github.com/openai/mujoco-py#install-mujoco) in the mujoco-py package for help. Once you're ready to install everything, run:
 
 ```
-pip install git+https://github.com/rlworkgroup/metaworld.git@master#egg=metaworld
+pip install git+https://github.com/Kostis-S-Z/metaworld@master#egg=metaworld
 ```
 
 Alternatively, you can clone the repository and install an editable version locally:
 
 ```
-git clone https://github.com/rlworkgroup/metaworld.git
+git clone https://github.com/Kostis-S-Z/metaworld
 cd metaworld
 pip install -e .
 ```
